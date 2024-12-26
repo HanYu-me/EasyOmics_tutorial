@@ -1,5 +1,5 @@
 ---
-EasyOmics
+title: EasyOmics
 ---
 
  <img src="figures/Main_fig.png" width = "400" height = "350" alt="No fig" align=center />
