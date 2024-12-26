@@ -2,26 +2,40 @@
 title: EasyOmics Description
 ---
 
-## Introduction
+![Alt text](figures/Main_fig.png)
 
+Each function in EasyOmics is independent, allowing users to input data, adjust parameters, run analyses, and visualize results with simple point-and-click actions.
+
+The sidebar contains a selection list for analysis functions, a file upload panel, a parameter control panel, and an action button. The main panel visualizes the analysis output and displays feedback.
+
+This significantly simplifies population-scale omics data analysis, making it more convenient for biologists to perform a series of omics analyses.
+
+In EasyOmics workflow, GWAs function can perform association analysis between genotype and phenotype and find QTLs with significant association. Omics QTL function treats omic data as molecular phenotype and tests the association with genotypic data. MR function integrates the QTLs and OmicQTLs to perform causal inference. OmicsWAS tests the association between phenotypic and omics data.
+
+--- 
+
+## Introduction
 A graphical interface for population-scale omics data association, integration and visualization
 
 EasyOmics is an R Shiny application with a graphic user interface (GUI) application that integrates the Omic data for GWAS analysis. It is a user-friendly application that allows users to perform association analysis locally without any coding.
 
 Moreover, it simplifies data compatibility issues across various analysis tools, requiring only VCF, GFF, and phenotype TXT files.
 
+
 |Function|Description|
 | ----------- | ----------- |
-|[Data Matching](#1)|Preparing input files for subsequent analysis. |
-|[Phenotype Analysis](#2)|Providing critical insights into the input data characteristics and facilitates the detection of outlier values.|
-|[GWAS](#3)|Testing the significance of associations between each SNP and the phenotype using a linear mixed model.|
-|[COJO](#4)|Fine mapping of GWAS result and identify secondary association signals.|
-|[Locus Zoom](#5)|Displaying the significance, linkage, and nearby genes of SNPs in specific chromosome regions.|
-|[Omic QTL](#6)|Employing linear models for association analysis of omics data and genotype data.|
-|[Two Traits MR](#7)|Exploring causal relationships between two traits.|
-|[SMR](#8)|Exploring causal relationships between trait and omic molecular trait.|
-|[OmicWAS](#9)|Testing the associations between omic data and complex traits.|
+|**Data Matching**|Preparing input files for subsequent analysis. |
+|**Phenotype Analysis**|Providing critical insights into the input data characteristics and facilitates the detection of outlier values.|
+|**GWAS**|Testing the significance of associations between each SNP and the phenotype using a linear mixed model.|
+|**COJO**|Fine mapping of GWAS result and identify secondary association signals.|
+|**Locus Zoom**|Displaying the significance, linkage, and nearby genes of SNPs in specific chromosome regions.|
+|**Omic QTL**|Employing linear models for association analysis of omics data and genotype data.|
+|**Two Traits MR**|Exploring causal relationships between two traits.|
+|**SMR**|Exploring causal relationships between trait and omic molecular trait.|
+|**OmicWAS**|Testing the associations between omic data and complex traits.|
 
+
+---
 ## Citation
 If you use EasyOmics, please cite the appropriate article:
 
