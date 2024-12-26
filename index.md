@@ -1,5 +1,5 @@
 ---
-title: ""
+title: The APP
 ---
 
 <div align=center><img src="figures/Main_fig.png" width="80%" /></div>

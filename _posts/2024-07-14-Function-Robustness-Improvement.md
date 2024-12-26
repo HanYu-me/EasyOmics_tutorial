@@ -1,5 +1,5 @@
 ---
-title: EasyOmics v1.1.0 Function Robustness Improvement
+title: EasyOmics v1.1.4 Function Robustness Improvement
 type: major
 ---
 
