@@ -1,5 +1,5 @@
 ---
-title: EasyOmics
+title: ""
 ---
 
 <div align=center><img src="figures/Main_fig.png" width="80%" /></div>
