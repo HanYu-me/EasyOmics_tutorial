@@ -2,7 +2,10 @@
 title: EasyOmics
 ---
 
- <img src="figures/Main_fig.png" width = "400" height = "350" alt="No fig" align=center />
+<div align=center><img src="figures/Main_fig.png" width="80%" /></div>
+
+
+
 
 
 Each function in EasyOmics is independent, allowing users to input data, adjust parameters, run analyses, and visualize results with simple point-and-click actions.
