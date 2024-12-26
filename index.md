@@ -1,5 +1,5 @@
 ---
-title: EasyOmics Description
+EasyOmics
 ---
 
 ![Alt text](figures/Main_fig.png)
