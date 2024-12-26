@@ -1,5 +1,5 @@
 ---
-title: [EasyOmics v1.2.0] Major Improvement of Whole App
+title: EasyOmics v1.2.0 Major Improvement of Whole App
 type: major
 ---
 

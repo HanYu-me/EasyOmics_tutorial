@@ -1,5 +1,5 @@
 ---
-title: [EasyOmics V1.0.0] First-Published 
+title: EasyOmics V1.0.0 First-Published 
 type: major
 ---
 
