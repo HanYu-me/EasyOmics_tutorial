@@ -25,6 +25,11 @@ EasyOmics is an R Shiny application with a graphic user interface (GUI) applicat
 
 Moreover, it simplifies data compatibility issues across various analysis tools, requiring only VCF, GFF, and phenotype TXT files.
 
+The analysis parameters of invoked tools are automatically set to default values, which reduces the complexity of parameter setting for users.
+
+Parameters also could be adjusted by users in the "Other Parameters" input text box of every analysis function.
+The setted parameters are the main invoked softwares' parameters. Please see "Citation" for the main invoked softwares' references.
+
 
 |Function|Description|
 | ----------- | ----------- |

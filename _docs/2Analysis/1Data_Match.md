@@ -20,7 +20,7 @@ order: 2
 |Upload VCF Data File|The VCF data, format is shown in "Data Preparation".|
 |VCF File Type|The variant type of the VCF file.|
 |Family Information|Whether the family information is included in the phenotype data and vcf data.|
-|Other parameters|Other parameters for Plink, which was used to filter the VCF file.|
+|Other Parameters|Other parameters of the main invoked software for this analysis.|
 
 > Output Results
 

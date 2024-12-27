@@ -4,4 +4,28 @@ category: Analysis
 order: 5
 ---
 
-Use ChatApp on all of your Android devices. Every version is supported.
+### Analysis Process
+- Utilizes GCTA software COJO function to remove significant SNPs in the "GWAs" analysis
+- Analyze whether any SNPs are still significant.
+
+### Input and Output
+
+> Input Parameters
+
+|Parameter|Description|
+|--|--|
+|Upload GWAs Data File| The .mlma file from the "GWAs" analysis.|
+|Upload VCF Data File| The VCF data, format is shown in "Data Preparation".|
+|Threshold| A value setting the significance threshold (P-value) for COJO analysis. SNPs with P-values below this threshold are retained. Supports numeric input, defaulting to 5e-8. For users unsure of the significance threshold, entering "Bonferroni" sets it to 0.05 divided by the number of SNPs.|
+|Color|Sets adjacent chromosome colors in the Manhattan plot. Hexadecimal colors are connected by "_"|
+|Show Top SNPs|Whether to show the top SNPs in the Manhattan plot.|
+|Other Parameters|Other parameters of the main invoked software for this analysis.|
+
+> Output Results
+
+|Filename|Description|
+|--|--|
+|Time_GWAs_cojoed.log&.jma.cojo&.ldr.cojo&.cma.cojo|The output of the invoked software for the COJO analysis.|
+|Time_GWAs_cojoedmanhattan.pdf&png|The visualized results of the COJO analysis. Includes a Manhattan plot of the association results.|
+|Time_GWAs_cojoedtop_snps.txt|The association result of the top SNPs.|
+|Time_GWAs_cojoedqqplot.pdf&png|The visualized results of the COJO analysis. Includes a QQ plot of the association results and a regression line of inflation factor.|
