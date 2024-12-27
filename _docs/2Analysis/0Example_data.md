@@ -4,7 +4,7 @@ category: Analysis
 order: 1
 ---
 
-#### Example Data
+## Example Data
 
 - Example data have been deposited in https://github.com/HanYu-me/EasyOmics/tree/main/examples
 - phe_FT16.txt: Flowering time of *Arabidopsis thaliana* at 16°C.
@@ -13,9 +13,9 @@ order: 1
 - Arabidopsis_thaliana.TAIR10.55.gff3.zip: A gff3 format file of gene annotation. Please uncompress it before performing analysis.
 - sample_10000_snps.vcf: Vcf file containing 10,000 SNPs, which were sampled from the raw 1001 SNP data.
 
-#### Data Format
+## Data Format
 
-##### Phenotype Data
+### Phenotype Data
 - Phenotype text files are split by "tab", containing at least three columns: family code, individual code, and phenotypic value of the trait (supports multiple phenotypes).
   - If no family information is available, the family code can be **set as the individual code** or **just contain the id and phenotype columns** in file.
 ```txt
@@ -31,7 +31,7 @@ family id FT16
 424 424 68.25
 ```
 
-##### Genotype Data
+### Genotype Data
 
 - Standard VCF format genotype file, where the individual code must follow the format "family code_individual code". The content of first 9 columns are fixed, and the 10th+ columns are the genotype information of each individual.
   - If no family information is available, the family code can be **set as the individual code** (eg. 108_108) or **just contain the id** (eg. 108) in file.
@@ -48,7 +48,7 @@ family id FT16
 1       508     1:508   C       T       .       .       PR      GT      0/0     0/0
 ```
 
-##### Genome Annotation Data
+### Genome Annotation Data
 
 - Standard GFF3 format file, which contains the gene annotation information of the genome. This file is suitable for gene-probe based Omic data analysis (eg. transcriptome).
   - The file should contain at least 9 columns: seqid, source, type, start, end, score, strand, phase, and attributes.
