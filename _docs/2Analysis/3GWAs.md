@@ -6,9 +6,11 @@ order: 4
 
 ### Analysis Process
 
+- Converts the input data to the format required by the GCTA software.
 - Uses GCTA to conduct a mixed linear model association analysis for each SNP and phenotype. 
 - If the inflation factor is bigger than 1.1, lambda adjusted p value will be used. 
 - If "Show Top SNPs" is selected, EasyOmics extracts and merges SNPs based on their significance, physical distance, and Linkage Disequilibrium (LD),  and annotates the most significant independent SNPs on the Manhattan plot.
+- Visualizes the results of the analysis.
 
 ### Input and Output
 

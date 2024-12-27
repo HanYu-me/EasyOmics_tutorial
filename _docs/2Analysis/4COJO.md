@@ -5,8 +5,11 @@ order: 5
 ---
 
 ### Analysis Process
+
+- Converts the input data to the format required by the GCTA software.
 - Utilizes GCTA software COJO function to remove significant SNPs in the "GWAs" analysis
 - Analyze whether any SNPs are still significant.
+- Visualizes the results of the analysis.
 
 ### Input and Output
 
@@ -29,3 +32,6 @@ order: 5
 |Time_GWAs_cojoedmanhattan.pdf&png|The visualized results of the COJO analysis. Includes a Manhattan plot of the association results.|
 |Time_GWAs_cojoedtop_snps.txt|The association result of the top SNPs.|
 |Time_GWAs_cojoedqqplot.pdf&png|The visualized results of the COJO analysis. Includes a QQ plot of the association results and a regression line of inflation factor.|
+
+
+

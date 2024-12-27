@@ -5,6 +5,9 @@ order: 3
 ---
 
 ### Analysis Process
+
+- Converts the input data to the format required by the Plink and GCTA software.
+
 - For multi-trait analyses
 - EasyOmics calculates: 
   - Distribution of phenotypes.
@@ -12,12 +15,12 @@ order: 3
   - Genetic variance.
   - Narrow-sense heritability. 
 
-
 - For single trait 
 - EasyOmics calculates:
   - Narrow-sense heritability.
   - Phenotype distribution in a density plot
   - visualizes population structure through PCA analysis of SNP data in a scatter plot
+
 
 ### Input and Output
 
