@@ -26,8 +26,9 @@ order: 2
 
 |Filename|Description|
 |--|--|
-|a|a|
-|a|a|
+|Time_Matched_vcf.vcf.gz|The matched VCF file.|
+|Time_Matched_phe.txt|The matched phenotype file.|
+|Time_Phe_name_convert.txt|If the phenotype name is truncated, the original and truncated names are listed in this file.|
 
 
 
