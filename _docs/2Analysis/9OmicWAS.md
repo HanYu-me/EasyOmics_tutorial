@@ -1,7 +1,7 @@
 ---
 title: OmicWAS
 category: Analysis
-order: 9
+order: 10
 ---
 
 Use ChatApp on all of your Android devices. Every version is supported.
