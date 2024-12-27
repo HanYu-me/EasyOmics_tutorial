@@ -5,7 +5,7 @@ order: 2
 ---
 
 ### Analysis Process
-- load the phenotype data and the variant call format (VCF) file. IF the phenotype name is longer than 10 characters, it will be truncated to 10 characters.
+- Load the phenotype data and the variant call format (VCF) file. IF the phenotype name is longer than 10 characters, it will be truncated to 10 characters.
 - Extract individual codes from phenotype and variant call format (VCF) files
 - Excluding individuals lacking phenotype or genotype data. 
 - Plink was used to filter the VCF file for minor allele frequency greater than 0.03 and pairwise r2 smaller than 0.99.

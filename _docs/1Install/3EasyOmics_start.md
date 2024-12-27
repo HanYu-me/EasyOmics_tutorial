@@ -1,5 +1,5 @@
 ---
-title: EasyOmics start
+title: EasyOmics Start
 category: Software Install
 order: 3
 ---
@@ -26,5 +26,5 @@ order: 3
 
 <div align=center><img src="../../figures/image17.png" width="80%" /></div>
 
+
 - Click the stop button on the "Container" page to exit the software.
----

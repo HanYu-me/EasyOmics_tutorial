@@ -36,7 +36,9 @@ order: 9
 ### Main Results Interpretation
 
 -  Prioritizing genes at a GWAS locus using SMR analysis. Shown are results at Omic data loci for phenotype. Top plot is the P values for SNPs from GWAs. Middle plot is the P values for SNPs from omicQTL. Bottom plot is the gene position in the selected region.
-![Alt text](figures/Fig5A.png)
+
+![Alt text](../../figures/Fig5A.png)
+
 - Scatter plot of detected SNP effect on Omic data and phenotype.
 
 <div align=center><img src="../../figures/Fig5B.png" width="80%" /></div>

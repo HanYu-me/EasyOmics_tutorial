@@ -31,7 +31,7 @@ order: 8
 
 ### Main Results Interpretation
 
-- Correlation of effect values of SNPs passing the threshold on the two traits. 
+- Correlation of effect values of SNPs passing the threshold on the two traits. Please Note: The example result is not a significant result, it is just for showing the plot.
 
 <div align=center><img src="../../figures/gsmr_result.png" width="60%"/></div>
 
