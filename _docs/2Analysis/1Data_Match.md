@@ -20,7 +20,7 @@ order: 2
 |Upload VCF Data File|The VCF data, format is shown in "Data Preparation".|
 |VCF File Type|The variant type of the VCF file.|
 |Family Information|Whether the family information is included in the phenotype data and vcf data.|
-|Other Parameters|Other parameters of the main invoked software for this analysis.|
+|Other Parameters|Other parameters of the main invoked software (Plink) for this analysis. For example, "--maf 0.1" can be used to set the minor allele frequency threshold to 0.1.|
 
 > Output Results
 
