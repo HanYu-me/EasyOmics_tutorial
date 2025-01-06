@@ -110,3 +110,5 @@ G01190	1	82984	84946
 G01200	1	86486	88409
 G01210	1	88622	90502
 ```
+
+> **Note:** EasyOmics supports the upload and analysis of large files, with a current size limit of 300Gb.
