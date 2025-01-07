@@ -10,7 +10,7 @@ title: The APP
 
 Each function in EasyOmics is independent, allowing users to input data, adjust parameters, run analyses, and visualize results with simple point-and-click actions.
 
-The sidebar contains a selection list for analysis functions, a file upload panel, a parameter control panel, and an action button. The main panel visualizes the analysis output and displays feedback.
+The sidebar contains a menu to select the corresponding page, a selection list for analysis functions, a file upload panel, a parameter control panel, and an action button. The main panel visualizes the analysis output and displays feedback.
 
 This significantly simplifies population-scale omics data analysis, making it more convenient for biologists to perform a series of omics analyses.
 
@@ -43,6 +43,11 @@ The setted parameters are the main invoked softwares' parameters. Please see "Ci
 |**SMR**|Exploring causal relationships between trait and omic molecular trait.|
 |**OmicWAS**|Testing the associations between omic data and complex traits.|
 
+## File Stream of Workflow
+
+This is the file stream of the workflow in EasyOmics. Only four input files need users to perpare. The phenotype data (txt), genotype data (vcf), genome annotation data(gff), and omic data(txt). 
+
+<div align=center><img src="figures/FileStream.png" width="80%" /></div>
 
 ---
 ## Citation
