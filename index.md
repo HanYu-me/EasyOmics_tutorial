@@ -45,9 +45,13 @@ The setted parameters are the main invoked softwares' parameters. Please see "Ci
 
 ## File Stream of Workflow
 
-This is the file stream of the workflow in EasyOmics. Only four input files need users to perpare. The phenotype data (txt), genotype data (vcf), genome annotation data(gff), and omic data(txt). 
+This is the file stream of the workflow in EasyOmics. Only four input files need users to prepare. The phenotype data (txt), genotype data (vcf), genome annotation data(gff), and omic data(txt). The analysis workflow could be seperated into three parts by the dashed line. The first part just need the user prepareed files. The second parts need the output files of the first part. The third part need the output files of the second part. 
 
-<div align=center><img src="figures/FileStream.png" width="80%" /></div>
+Check the diagram by function is a good way to understand the input data and output data. For example, in Locus Zoom function, there are four arrows indicate the input data: Matched phe.txt and Matched vcf.vcf from Data Matching, GWA.mlma from GWAS function, and GFF.gff file from user.
+
+
+
+<div align=center><img src="figures/FileStream.png" width="100%" /></div>
 
 ---
 ## Citation
@@ -68,6 +72,7 @@ Yang, J., Lee, S.H., Goddard, M.E., Visscher, P.M., 2011. GCTA: A tool for genom
 GWAS:
 
 Yang, J., Lee, S.H., Goddard, M.E., Visscher, P.M., 2011. GCTA: A tool for genome-wide complex trait analysis. Am. J. Hum. Genet. 88, 76–82. https://doi.org/10.1016/j.ajhg.2010.11.011
+Huang, M., Liu, X., Zhou, Y., Summers, R. M., and Zhang, Z. (2019). BLINK: A package for the next level of genome-wide association studies with both individuals and markers in the millions. Gigascience. 8, 1–12. https://doi.org/10.1093/gigascience/giy154
 
 COJO:
 
