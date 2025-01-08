@@ -38,6 +38,10 @@ order: 6
 ### Main Results Interpretation
 
 - Visualization of results including linkage and P-values of the selected SNP and other SNPs; genes in the interval; linkage between all SNPs in the interval. 
+  - In the top panel, the top red square means the SNP you selected, the other snp are colored by their LD with the selected SNP, and the height of each SNP means the -log10(p-value) of the SNP. 
+  - The middle panel shows the genes in the region. For each gene, the gene structure was annotated. Red colored region means the CDS region, and the purple colored region means the UTR region. Each line in this panel mean the location of SNP.
+  - In the bottom panel, the LD between the selected SNP and other SNPs are shown. The color of the triangle means the LD value between the two SNPs. The darker color means the higher LD value. The green line from middle panel to bottom panel means the location of the SNP in the genome region.
+  
 ![Alt text](../../figures/Fig3C.png)
 - Phenotypes of individuals with different genotypes of the selected SNP.
 

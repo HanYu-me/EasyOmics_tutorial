@@ -32,3 +32,12 @@ order: 10
 |Time_moa_1_1.log&.moa|The output of the invoked software for the OmicWAS analysis.|
 |Time_OmicWAs_manhattan.pdf&png|The visualized results of the OmicWAS analysis. Includes a Manhattan plot of the association results.|
 |Time_top_genes.txt|The association result of the significant associated Omic data.|
+
+
+### Main Results Interpretation
+
+- Manhattan plot.
+<div align=center><img src="../../figures/Fig6.png" width="80%"/></div>
+
+- The p-value: p-value means the significance of association between omic data and phenotype. If some Omic data pass the threshold, these Omic data are statistically significant association between the omic data and the trait.
+  

@@ -35,6 +35,10 @@ family id FT16
 
 - Standard VCF format genotype file, where the individual code must follow the format "family code_individual code". The content of first 9 columns are fixed, and the 10th+ columns are the genotype information of each individual.
   - If no family information is available, the family code can be **set as the individual code** (eg. 108_108) or **just contain the id** (eg. 108) in file.
+- For other type of variation data, like SVs or Indels, the format should be similar to VCF format.
+  - The most important thing is that the variation must be **bi-allelic**.
+  - The Ref and Alt columns could be any thing, EasyOmics will automatically convert them to sutiable format.
+
 ```txt
 #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  108_108 139_139
 1       73      1:73    C       A       .       .       PR      GT      0/0     0/0

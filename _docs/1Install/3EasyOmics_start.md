@@ -9,7 +9,7 @@ order: 3
 <div align=center><img src="../../figures/image-11.png" width="80%" /></div>
 
 - Set the container parameters. 
-  - Container name could be any character (eg.EasyOmics).
+  - Container name could be any character (eg.gwas_test).
   - Host port could be 0 or any other four digits (eg. 3838).
   - Directory :
     - <b>Host path is the local empty directory path to save analysis results (eg. C:/Desktop/new_dir/). </b>
