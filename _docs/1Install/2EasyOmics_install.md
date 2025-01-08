@@ -7,7 +7,7 @@ order: 2
 After installing Docker users need to follow these steps:
 - Open the Docker Desktop application.
 - Skip sign up (Optional)
-- Search for yuhan2000 and pull (download) the latest image yuhan2000/gwas:latest
+- Search for yuhan2000 and pull (download) the latest image yuhan2000/easyomics:latest
 
 <div align=center><img src="../../figures/image-13.png" width="80%" /></div>
 
