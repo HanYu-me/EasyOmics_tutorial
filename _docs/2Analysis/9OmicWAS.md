@@ -19,7 +19,7 @@ order: 10
 |Upload Phenotype Data File|The phenotype data, format is shown in "Data Preparation".|
 |Upload Omic Data File|The omic data, format is shown in "Data Preparation".|
 |Upload GFF Data File|The GFF data, format is shown in "Data Preparation".|
-|Select GFF Type|The type of GFF file. If the probe of omic data is located in the genome and (1) is gene, upload the genome annotation GFF file. (2) is not gene, upload the probe position GFF like file. If the probe of omic data is not located in the genome, select "Not gene", and users can skip the GFF file upload.|
+|Select GFF Type|The type of GFF file. If the feature of omic data is located in the genome and (1) is gene, upload the genome annotation GFF file. (2) is not gene, upload the feature position GFF like file. If the feature of omic data is not located in the genome, select "Not gene", and users can skip the GFF file upload.|
 |Threshold|A value setting the significance threshold (P-value) for OmicWAS analysis. Omic data with P-values below this threshold are retained. Supports numeric input, defaulting to 5e-8. For users unsure of the significance threshold, entering "Bonferroni" sets it to 0.05 divided by the number of Omic data.|
 |Color|Sets adjacent chromosome colors in the Manhattan plot. Hexadecimal colors are connected by "_"|
 |Show Top Omic Data|Whether to show the top Omic data in the Manhattan plot.|
