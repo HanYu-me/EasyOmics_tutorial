@@ -21,7 +21,7 @@ order: 7
 |Upload Omic Phenotype Data File|The omic phenotype data, format is shown in "Data Preparation".|
 |Upload GFF Data File|The GFF data, format is shown in "Data Preparation".|
 |Upload VCF Data File|The VCF data, format is shown in "Data Preparation".|
-|Select GFF Type|The type of GFF file. If the probe of omic data is located in the genome and (1) is gene, upload the genome annotation GFF file. (2) is not gene, upload the probe position GFF like file. If the probe of omic data is not located in the genome, select "Not gene", and users can skip the GFF file upload.|
+|Select GFF Type|The type of GFF file. If the feature of omic data is located in the genome and (1) is gene, upload the genome annotation GFF file. (2) is not gene, upload the feature position GFF like file. If the feature of omic data is not located in the genome, select "Not gene", and users can skip the GFF file upload.|
 |Normalization Data|Wether to normalize the omic data using zscore method.|
 |Threshold|A value setting the significance threshold (P-value) for Omic QTL analysis. SNPs with P-values below this threshold are retained. Supports numeric input, defaulting to 5e-8. For users unsure of the significance threshold, entering "Bonferroni" sets it to 0.05 divided by the number of SNPs.|
 |Other Parameters|Other parameters of the main invoked software for this analysis.|
@@ -38,7 +38,7 @@ order: 7
 
 ### Main Results Interpretation
 
-- Scatter plot of genes or probes and their QTL positions on chromosomes.The x-axis represents the genomic positions of the detected eQTL, while the y-axis represents the genomic positions of the associated genes.
+- Scatter plot of genes or features and their QTL positions on chromosomes.The x-axis represents the genomic positions of the detected eQTL, while the y-axis represents the genomic positions of the associated genes.
 
 <div align=center><img src="../../figures/image18.png" width="90%"/></div>
 ![alt text](image.png)
@@ -58,9 +58,9 @@ SNP gene beta t-stat p-value FDR
 - Scatter plot of the QTL significant association frequency. The x-axis represents the genome position, which was seperated by 50,000bp. The y-axis represents the number of significant associations. For example, the top-right corner of the point represents qtls located in this region are significantly associated with ~10^3.6 omics data, which also means the potential trans-QTLs.
 <div align=center><img src="../../figures/timesimage.png" width="90%"/></div>
 
-- The figures at folder "Time_Omic_manhattan_plot": This is a filtered Manhattan plot of the association results for each omic data. Only snps with association p-value less than 1e-4 are shown in the plot. As same as manhattan plot in GWAS, the x-axis represents the genomic position of the snps, and the y-axis represents the -log10(p-value) of the association. These figures were used to identify the stochastic association and highly potential association. If a visible peak is shown in the plot, it means the significant association between this omic probe and the qtl around the peak is highly potential.
-  - The left figure shows a peak located in the top region of chromosome 1, which means the omic probe located in this region is highly associated with the qtl around this region.
-  - The right figure don't show any peak, which means the omic probe located in this region perhaps is not a true association.
+- The figures at folder "Time_Omic_manhattan_plot": This is a filtered Manhattan plot of the association results for each omic data. Only snps with association p-value less than 1e-4 are shown in the plot. As same as manhattan plot in GWAS, the x-axis represents the genomic position of the snps, and the y-axis represents the -log10(p-value) of the association. These figures were used to identify the stochastic association and highly potential association. If a visible peak is shown in the plot, it means the significant association between this omic feature and the qtl around the peak is highly potential.
+  - The left figure shows a peak located in the top region of chromosome 1, which means the omic feature located in this region is highly associated with the qtl around this region.
+  - The right figure don't show any peak, which means the omic feature located in this region perhaps is not a true association.
 
 <div align=center><img src="../../figures/qtl_tf.png" width="90%"/></div>
 
