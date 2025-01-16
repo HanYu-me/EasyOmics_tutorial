@@ -9,9 +9,13 @@ order: 1
 - Example data have been deposited in https://github.com/HanYu-me/EasyOmics/tree/main/examples
 - phe_FT16.txt: Flowering time of *Arabidopsis thaliana* at 16°C.
 - phe_10env.txt: Flowering time of *Arabidopsis thaliana* at 10 different environments.
-- Matched_phe_sub5000.txt: Gene expression RPKM matrix of sampled 5000 genes.
-- Arabidopsis_thaliana.TAIR10.55.gff3.zip: A gff3 format file of gene annotation. Please uncompress it before performing analysis.
+- Omic5000.txt: The omic data of 5000 features. Here, we used gene expression RPKM matrix of sampled 5000 genes.
 - sample_10000_snps.vcf: Vcf file containing 10,000 SNPs, which were sampled from the raw 1001 SNP data.
+- MHImlm.mlma: The output of the GWAs analysis, which enable users to perform follow analysis, like locuszoom, COJO, etc.
+- THImlm.mlma: The output of another GWAs analysis, which enable users to perform follow analysis. Additionally, users could input this file and the MHImlm.mlma file to perform the test of "Two Traits MR" function.
+- qtls.txt: The output of the Omic QTLs analysis, which enable users to perform the test of "SMR" function.
+- Arabidopsis_thaliana.TAIR10.55.gff3.zip: A gff3 format file of gene annotation. Please uncompress it before performing analysis.
+- Customized_position.txt: The feature position file of the Omic data. Which enable users test the customized position of the Omic data. Here, we used the gene position file of the sampled 5000 genes.
 
 ### Data Format
 
@@ -54,7 +58,7 @@ family id FT16
 
 #### Genome Annotation Data
 
-- Standard GFF3 format file, which contains the gene annotation information of the genome. This file is suitable for gene-probe based Omic data analysis (eg. transcriptome).
+- Standard GFF3 format file, which contains the gene annotation information of the genome. This file is suitable for gene-feature based Omic data analysis (eg. transcriptome).
   - The file should contain at least 9 columns: seqid, source, type, start, end, score, strand, phase, and attributes.
   - The attributes column should contain the gene ID, gene name, gene biotype, and gene description.
 
@@ -87,8 +91,8 @@ family id FT16
 1	araport11	exon	7762	7835	.	-	.	Parent=transcript:AT1G01020.2;Name=AT1G01020.1.exon5;constitutive=0;ensembl_end_phase=0;ensembl_phase=1;exon_id=AT1G01020.1.exon5;rank=5
 ```
 
-- If the probe of Omic data is not gene, the similar format file can be used to represent the probe information. 
-  - For example, the probe name/ID (same as phenotype name in Omic phenotype file), probe position in chromosome, probe start position in base pair, and probe end position in base pair.
+- If the feature of Omic data is not gene, the similar format file can be used to represent the feature information. 
+  - For example, the feature name/ID (same as phenotype name in Omic phenotype file), feature position in chromosome, feature start position in base pair, and feature end position in base pair.
   - The end position is optional, The first three columns are necessary.
 
 ```txt
@@ -115,4 +119,4 @@ G01200	1	86486	88409
 G01210	1	88622	90502
 ```
 
-> **Note:** EasyOmics supports the upload and analysis of large files, with a current size limit of 300Gb.
+> **Note:** EasyOmics supports the upload and analysis of large files. The file size limitation is based on the Disk space which docker desktop installed on.

@@ -56,3 +56,13 @@ order: 4
   - Generalized mixed linear model: This model is used for binary traits. A kinship matrix calculated from the genotype data is used to account for population structure and relatedness among samples.
   - Linear regression model: This model is the fastest model for GWAS analysis, which does not account for population structure and relatedness among samples. It is suitable for geneticly evenly distributed data. In addition, this model provide a preview of the association between genetic variation and phenotype.
   - Multi-loci mixed linear model: A Bayesian-information and Linkage-disequilibrium Iteratively Nested Keyway (BLINK) model is used to account for population structure and relatedness among samples. This model is used for multi-loci association analysis. **However, due to the association basic unit of genotype is multi-loci, the association is not suitable for downstream function, except for the Locus Zoom function.**
+
+### Citation
+
+For Mixed Linear Model, Generalized Mixed Linear Model, and Linear Regression Model:
+
+Yang, J., Lee, S.H., Goddard, M.E., Visscher, P.M., 2011. GCTA: A tool for genome-wide complex trait analysis. Am. J. Hum. Genet. 88, 76–82. https://doi.org/10.1016/j.ajhg.2010.11.011
+
+For Multi-loci Mixed Linear Model:
+
+Huang, M., Liu, X., Zhou, Y., Summers, R. M., and Zhang, Z. (2019). BLINK: A package for the next level of genome-wide association studies with both individuals and markers in the millions. Gigascience. 8, 1–12. https://doi.org/10.1093/gigascience/giy154

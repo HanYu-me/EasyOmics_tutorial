@@ -33,6 +33,9 @@ order: 3
 |Analysis type| Whether the phenotype data is multi-trait or single trait.|
 |Other Parameters|Other parameters of the main invoked software for this analysis.|
 
+
+
+
 > Output Results
 
 |Filename|Description|
@@ -57,3 +60,8 @@ order: 3
 - Heritability: High heritability indicates that a significant proportion of the variation in a specific trait within a population is due to genetic differences among individuals. This suggests that the trait is strongly influenced by genetic factors.
 - Outlier of phenotype: If the distribution of the phenotype is abnormal or disordered, some individuals may have phenotypic values that were erroneously collected, and these need to be identified as outliers. An outlier in phenotypic values can influence the association results disproportionately, potentially leading to false positives or negatives.
 - Outlier of genetic structure: Outlier often refers to an individual individual whose genetic background is substantially different from the rest of the study population.
+
+
+### Citation
+
+Yang, J., Lee, S.H., Goddard, M.E., Visscher, P.M., 2011. GCTA: A tool for genome-wide complex trait analysis. Am. J. Hum. Genet. 88, 76–82. https://doi.org/10.1016/j.ajhg.2010.11.011

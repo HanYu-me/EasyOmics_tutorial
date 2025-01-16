@@ -36,3 +36,8 @@ order: 8
 <div align=center><img src="../../figures/gsmr_result.png" width="60%"/></div>
 
 - Significant MR in p-value: After filtering SNPs p-value passed the threshold in the outcome and exposure, SNPs located in common region will be analysed.The significance is determined through the use of genetic variants as instrumental variables (IVs) to estimate the causal effect of the exposure on the outcome. If the p-value in result file passes the threshold, causal relationship is true.
+
+
+### Citation
+
+Zhu, Z., Zheng, Z., Zhang, F., Wu, Y., Trzaskowski, M., et al., 2018. Causal associations between risk factors and common diseases inferred from GWAS summary data. Nat. Commun. 9. https://doi.org/10.1038/s41467-017-02317-2

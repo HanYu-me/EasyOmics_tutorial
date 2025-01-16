@@ -34,4 +34,7 @@ order: 5
 |Time_GWAs_cojoedqqplot.pdf&png|The visualized results of the COJO analysis. Includes a QQ plot of the association results and a regression line of inflation factor.|
 
 
+### Citation
+
+Yang, J., Ferreira, T., Morris, A.P., Medland, S.E., Madden, P.A.F., et al., 2012. Conditional and joint multiple-SNP analysis of GWAS summary statistics identifies additional variants influencing complex traits. Nat. Genet. 44, 369–375. https://doi.org/10.1038/ng.2213
 

@@ -63,3 +63,8 @@ SNP gene beta t-stat p-value FDR
   - The right figure don't show any peak, which means the omic probe located in this region perhaps is not a true association.
 
 <div align=center><img src="../../figures/qtl_tf.png" width="90%"/></div>
+
+
+### Citation
+
+Shabalin, A.A., 2012. Matrix eQTL: Ultra fast eQTL analysis via large matrix operations. Bioinformatics 28, 1353–1358. https://doi.org/10.1093/bioinformatics/bts163

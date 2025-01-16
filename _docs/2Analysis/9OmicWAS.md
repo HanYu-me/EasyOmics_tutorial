@@ -40,4 +40,8 @@ order: 10
 <div align=center><img src="../../figures/Fig6.png" width="80%"/></div>
 
 - The p-value: p-value means the significance of association between omic data and phenotype. If some Omic data pass the threshold, these Omic data are statistically significant association between the omic data and the trait.
-  
+
+
+### Citation
+
+Zhang, F., Chen, W., Zhu, Z., Zhang, Q., Nabais, M.F., et al., 2019. OSCA: A tool for omic-data-based complex trait analysis. Genome Biol. 20, 1–13. https://doi.org/10.1186/s13059-019-1718-z

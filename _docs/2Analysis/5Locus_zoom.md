@@ -49,3 +49,8 @@ order: 6
 
 - Gene in selected region: Genes located in the selected zoom region are specifically annotated in the LocusZoom plot. The presence of these genes is crucial because it provides clues about potential biological pathways or mechanisms that might be influencing the trait of interest
 - LD in selected region: A region of high LD around a significant SNP suggests that these variants are inherited together frequently. Areas of low LD indicate that genetic linkage breaks down, which helps in narrowing down the possible regions where the causal variants might reside.
+
+### Citation
+
+
+Dong, S.-S., He, W.-M., Ji, J.-J., Zhang, C., Guo, Y., et al., 2021. LDBlockShow: a fast and convenient tool for visualizing linkage disequilibrium and haplotype blocks based on variant call format files. Brief. Bioinform. 22, bbaa227. https://doi.org/10.1093/bib/bbaa227

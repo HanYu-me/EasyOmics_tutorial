@@ -14,7 +14,7 @@ After installing Docker users need to follow these steps:
 If you cannot download/search the image because of some network problems (mainly caused by the Great Firewall in China), you can download the image from the following links:
 - download image form one of below links:
   - Figshare: https://doi.org/10.6084/m9.figshare.26317273.v1  
-  - Baidu Netdisk: https://pan.baidu.com/s/16TeFgBgAmZ9BiIiJcBGURw?pwd=gp6g
+  - Baidu Netdisk: https://pan.baidu.com/s/1ZcNgnN1Iqs1p-TGY9nrWkg?pwd=n4a6
 - Uncompress easyomics.tar.gz to easyomics.tar 
 
 [tutorial video link of below steps](https://www.bilibili.com/video/BV1mVveeREqS?vd_source=3223be254b7729f362a7c9fd14e43925&p=3&spm_id_from=333.788.videopod.episodes)
