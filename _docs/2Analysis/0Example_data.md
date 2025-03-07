@@ -43,6 +43,10 @@ family id FT16
   - The most important thing is that the variation must be **bi-allelic**.
   - The Ref and Alt columns could be any thing, EasyOmics will automatically convert them to sutiable format.
 
+> Please note
+- The vcf file only supports the variations in autosome. 
+- The #CHROM column only support the number of chromosome (1,2,3,...), or with the prefix "chr/Chr/Chromosome" (chr1, chr2, chr3,...).
+
 ```txt
 #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  108_108 139_139
 1       73      1:73    C       A       .       .       PR      GT      0/0     0/0
